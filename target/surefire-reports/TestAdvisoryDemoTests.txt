@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestAdvisoryDemoTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.785 s <<< FAILURE! - in TestAdvisoryDemoTests
+checkProductPrice(TestAdvisoryDemoTests)  Time elapsed: 23.771 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LEDN34750823A', ip: '10.98.214.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\i302996\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52089}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0bae940766643f8c2aa72fafc2fa9b81
+	at TestAdvisoryDemoTests.findProduct(TestAdvisoryDemoTests.java:80)
+	at TestAdvisoryDemoTests.checkProductPrice(TestAdvisoryDemoTests.java:53)
+
